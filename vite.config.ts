@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
       port: 3000,
       host: true,
     },
-
+    base: '/furqanzamir-portfolio/', // repo name
     plugins: [react()],
 
     define: {
